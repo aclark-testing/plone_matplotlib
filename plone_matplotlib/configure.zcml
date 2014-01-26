@@ -1,0 +1,12 @@
+<configure
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+    <browser:page
+        class=".plone_matplotlib.PloneMatPlotLib"
+        for="*"
+        name="plone_matplotlib"
+        permission="zope2.Public"
+        template="plone_matplotlib.pt"
+        />
+  
+</configure>
